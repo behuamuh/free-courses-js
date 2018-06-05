@@ -7,6 +7,6 @@ function palindrom (string) {
 }
 
 if (palindrom(str))
-	console.log('YES');
+	process.stdout.write('YES');
 else 
-console.log('NO');
+process.stdout.write('NO');
