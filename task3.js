@@ -6,4 +6,4 @@ var s = str.replace(/[aeiouyAEIOUYаеёиоуыэюяАЕЁИОУЫЭЮЯ012345
 var g = str.replace(/[qwrtpsdfghjklzxcvbnmQWRTPSDFGHJKLZXCVBNMйцкнгшщзхъфвпрлджчсмтьбЙЦКНГШЩЗХЪФВПРЛДЖЧСМТЬБ0123456789]/g,'');
 
 var res = g + " " + s + " " + d;
-console.log(res);
+process.stdout.write(res);
