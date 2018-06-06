@@ -1,4 +1,4 @@
-var str = process.argv[2];
+/*var str = process.argv[2];
 
 str = str.replace(/\W/g, '');
 var d = str.replace(/\D/g, '');
@@ -7,3 +7,4 @@ var g = str.replace(/[qwrtpsdfghjklzxcvbnmQWRTPSDFGHJKLZXCVBNMйцкнгшщзх
 
 var res = g + " " + s + " " + d;
 process.stdout.write(res);
+*/
