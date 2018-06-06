@@ -1,4 +1,4 @@
-var a = process.argv[2]; 
+/*var a = process.argv[2]; 
 function fibo (num) {
 	var n = Math.abs(num);
 	var f0 = 0;
@@ -17,3 +17,4 @@ function fibo (num) {
  	return fi;
 	}
 process.stdout.write(fibo(a).toString());
+*/
