@@ -13,7 +13,7 @@ function fibo (num) {
  		f1 = fi;
  	}
 	if (num < 0 && n % 2 == 0)
- 		fi = - fi;
+ 		fi = -1 * fi;
  	return fi;
 	}
 process.stdout.write(fibo(a).toString());
