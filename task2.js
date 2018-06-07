@@ -16,4 +16,4 @@ function fibo (num) {
  		fi = -1 * fi;
  	return fi;
 	}
-process.stdout.write(fibo(a).toString());
+process.stdout.write(fibo(a).toString() + '\n');
