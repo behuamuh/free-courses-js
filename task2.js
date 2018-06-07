@@ -1,9 +1,9 @@
-/*var a = process.argv[2]; 
+var a = process.argv[2]; 
 function fibo (num) {
 	var n = Math.abs(num);
 	var f0 = 0;
 	var f1 = 1;
-	if (n==1 || n ==0)
+	if (n < 2)
   		return n;
  	var i;
  	var fi;
@@ -12,9 +12,6 @@ function fibo (num) {
  		f0 = f1;
  		f1 = fi;
  	}
-	if (num < 0 && n % 2 == 0)
- 		fi = - fi;
  	return fi;
 	}
-process.stdout.write(fibo(a).toString());
-*/
+process.stdout.write(fibo(a));
